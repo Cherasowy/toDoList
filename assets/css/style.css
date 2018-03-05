@@ -1,3 +1,16 @@
 body{
-	background: pink;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.done{
+	opacity: 0.5;
+	text-decoration: line-through;
+}
+#container{
+	width: 380px;
+	margin: 10% auto;
+	border: 2px solid black;
+
 }
