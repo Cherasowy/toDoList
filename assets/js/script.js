@@ -6,7 +6,7 @@ $("ul").on("click", "li", function(){
 $("ul").on("click", "span", function(event){
 	 //no event bubbling
 	event.stopPropagation();            
-	$(this).parent().fadeOut(1000, function(){
+	$(this).parent().fadeOut(600, function(){
 		$(this).remove();
 	});
 });

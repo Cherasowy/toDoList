@@ -56,3 +56,19 @@ input{
 input:focus{
 	border: 3px solid #4484CE;
 }
+span{
+	height: 40px;
+	margin-right: 20px;
+	background: #e74c3c;
+	transition: 0.18s linear; 
+	width: 0;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	opacity: 0;
+	font-weight: normal; 
+}
+span:hover{
+	width: 40px;
+	opacity: 1;
+}
