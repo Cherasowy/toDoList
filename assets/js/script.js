@@ -13,8 +13,12 @@ $("ul").on("click", "span", function(event){
 //input listener
 $("input").on("keypress", function(event){
 	if (event.which == 13) {
-		$("ul").append(`<li><span><i class="fas fa-trash-alt"></i></span>${$(this).val()}</li>`);
+		$("ul").append(`<li><span><i class="fas fa-trash-alt"></i></span> ${$(this).val()}</li>`);
 		$(this).val("");
 
 	}
 });
+//icon listener
+$(document).on('click','.fa-plus',function(){
+	$('input').fadeToggle('fast','linear');
+})

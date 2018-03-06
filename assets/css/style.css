@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    color: #303030;
 }
 .done{
 	opacity: 0.5;
@@ -14,7 +15,7 @@ body{
 #container{
 	width: 380px;
 	margin: 10% auto;
-	border: 2px solid black;
+	box-shadow: 3px 3px 5px #303030; 
 	background: #f5f5f5;
 }
 h1{
@@ -33,12 +34,25 @@ ul{
 }
 li{
 	background: white;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
 }
 li:nth-child(2n){
-	background: #f5f5f5;
+	background: #e8e8e8;
 }
 .fa-plus{
 	float: right;
 	font-size: 18px;
 	padding: 5px;
+}
+input{
+	width: 100%;
+	box-sizing: border-box;
+	height: 40px;
+	font-size: 18px;
+	padding: 10px 15px 10px 20px;
+}
+input:focus{
+	border: 3px solid #4484CE;
 }
